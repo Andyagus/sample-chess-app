@@ -1,8 +1,11 @@
 import React from 'react'
+import Knight from './Knight'
 
 export default function Square({black, children}){
 	const fill = black ? 'black' : 'white'
 	const stroke = black ? 'white' : 'black'
+	
+
 	return(
 		<div style={{
 

@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Knight from './components/Knight'
 import Square from './components/Square'
 import Board from './components/Board'
+
+
 ReactDOM.render(
 		<Board knightPosition={[0,0]} />,
 		document.getElementById('root')
